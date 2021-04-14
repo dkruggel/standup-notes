@@ -1,0 +1,81 @@
+[
+    {
+        "2021.4": {
+            "2021.4.15": {
+                "Yesterday": "After the meeting I worked on my pull request comments and resolved all of the Data Frames and Data Frames DTM-II comments so that needs a couple of reviewers",
+                "Today": "I'll work to resolve the comments on Ref Lines dynamic help",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.14": {
+                "Yesterday": "After the meeting I got my VM to settle down and I was able to work on pull request comments for the help components I had worked and then I ducked out to get my first does of the COVID vaccine and then went back to working on that",
+                "Today": "We have the meetings and during any downtime I'll just continue working my pull requests to resolve those comments",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.13": {
+                "Yesterday": "I spent the entire day trying to get my VMs to operate correctly. They keep maxing out on CPU and Disk I/O and Skylar and Joey tried helping me a bit with that. The last resort was to start with a fresh VM and so I started pulling that off the network in the afternoon and that finished last night so this morning I set that VM up and tested it",
+                "Today": "We have the meetings and I have to pop out in the early afternoon to get my COVID vaccine and then I'll be back on",
+                "Impediments": "VM",
+                "GoBacks": "None"
+            },
+            "2021.4.12": {
+                "Yesterday": "I spent the day reinstalling core components on my dev VM and setting up my contractor laptop",
+                "Today": "I will continue fixing the comments on my dynamic help pull requests",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.9": {
+                "Yesterday": "I drove to Illinois and got my contractor laptop upgraded",
+                "Today": "After I finish setting up the laptop environment and get my VM back up and running, I'll start resolving the comments on my pull requests",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.8": {
+                "Yesterday": "While waiting for SFR docs I started looking at pull requests and reviewing comments on my pull requests to prepare for resolving them after my laptop upgrades",
+                "Today": "I will work the SFR updates that I get assigned",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.7": {
+                "Yesterday": "I worked on SIT Defaults help for a bit and then was told to await SFR docs to update",
+                "Today": "I will work the SFR updates that I get assigned",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.6": {
+                "Yesterday": "I spent the morning re-copying my VM to my contractor laptop because it would not open Visual Studio. Then I kicked off my pull requests and made sure the builds completed and then I finished up Ref Lines help and kicked off the pull request for that.",
+                "Today": "I'm starting work on SIT Defaults dynamic help",
+                "Impediments": "I still cannot access Mattermost or any network drives on nos",
+                "GoBacks": "None"
+            },
+            "2021.4.5": {
+                "Yesterday": "I spent the day tracking down whether my account had been activated and walking through some setup items with Lucas",
+                "Today": "This morning I was finally able to get into TFS so I will be kicking off pull requests from my completed dynamic help components and working on getting access to network folders and Mattermost",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.2": {
+                "Yesterday": "I worked on getting connected to BEN and it turned out I needed my Windows account to be activated so I got that ball rolling and that should be active by this afternoon and then I will be able to access everything on the network",
+                "Today": "I will keep checking on that and until then I'll be making sure my VM came over to my contractor laptop and is working",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.1": {
+                "Yesterday": "I worked on Ref Lines dynamic help and solved my installer issue and then was able to complete the testing of that",
+                "Today": "I'll try to get connected to BEN and get all set up and then finish my Ref Lines help testing",
+                "Impediments": "None",
+                "GoBacks": "None"
+            }
+        },
+        "2021.3": {
+
+        },
+        "2021.2": {
+            
+        },
+        "2021.1": {
+            
+        }
+    }
+]
