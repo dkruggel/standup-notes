@@ -1,8 +1,26 @@
-[
+    [
     {
         "2021.4": {
+            "2021.4.20": {
+                "Yesterday": "I reviewed some pull requests and helped Lucas with resolving some of his pull request comments and moved Data Frames to ready to test and started testing help for MWOD manager",
+                "Today": "I'll continue testing and reviewing pull requests",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.19": {
+                "Yesterday": "On Friday I completed the switch to OkCancelHelpButtonForm for the modify form in Data Frames DTM-II to finish out the pull request comments on that. I also completed resolving the comments for my Ref Lines dynamic help pull request and then I reviewed some pull requests",
+                "Today": "I need to get the build machine to build Ref Lines and then I will continue reviewing pull requests and then I'll help test some of the dynamic help stories",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.16": {
+                "Yesterday": "After the meetings I worked on my pull request comments and resolved most of the Data Frames DTM-II comments from Skylar",
+                "Today": "I'll finish that up and then start resolving my pull request comments for Ref Lines and then I'll start reviewing pull requests and helping Josh test",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
             "2021.4.15": {
-                "Yesterday": "After the meeting I worked on my pull request comments and resolved all of the Data Frames and Data Frames DTM-II comments so that needs a couple of reviewers",
+                "Yesterday": "After the meeting I worked on my pull request comments and resolved all of the Data Frames comments so that needs a couple of reviewers",
                 "Today": "I'll work to resolve the comments on Ref Lines dynamic help",
                 "Impediments": "None",
                 "GoBacks": "None"
