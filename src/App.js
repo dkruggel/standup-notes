@@ -1,5 +1,5 @@
 import './App.css';
-import Entry from './Entry';
+import Entry from './Entry/Entry';
 
 function App() {
   return (

@@ -1,9 +1,27 @@
 {"entries":
     [
         {"2021.4": {
+            "2021.4.26": {
+                "Yesterday": "I tested dynamic help for AAI and BOL and ADCP-II and I found an issue with that so I moved it back to Active",
+                "Today": "",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.23": {
+                "Yesterday": "I fought nuget packages not updating most of the morning and chatted with Collin about it and that finally started working so I finished up dynamic help for SIT Defaults and that'll need 2 reviewers. I also have a pull request for RefLines which requires a technical lead to review it and then I can complete that",
+                "Today": "I'll look through the active pull requests and ready to test user stories to help clean that up",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
+            "2021.4.22": {
+                "Yesterday": "After the meeting I fixed a couple of issues Laterza found with RefLines help and then I started the SIT Defaults help I had as active previously",
+                "Today": "I'll finish that up as long as the nuget packages cooperate and then I'll look at what helps need what",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
             "2021.4.21": {
-                "Yesterday": "I completed my Data Frames and Data Frames DTM-II pull requests and tested Weapons.Routes dynamic help and then I started testing EPAWSS Training dynamic help",
-                "Today": "I will continue grabbing user stories to test and then look for some",
+                "Yesterday": "I completed my Data Frames and Data Frames DTM-II pull requests and tested Weapons.Routes dynamic help and EPAWSS Training dynamic help. I also fixed a couple of issues Laterza found with RefLines help",
+                "Today": "I will continue grabbing user stories to test and I'll finish the last bits of Ref Lines that need fixed that Mike pointed out to me yesterday afternoon",
                 "Impediments": "None",
                 "GoBacks": "None"
             },
