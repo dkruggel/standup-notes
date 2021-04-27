@@ -14,7 +14,7 @@ button {
   display: flex;
   flex-direction: column;
   margin: 1em;
-  width: 40em;
+  width: 20em;
 }
 
 .sections {

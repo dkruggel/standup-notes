@@ -1,9 +1,15 @@
 {"entries":
     [
         {"2021.4": {
+            "2021.4.27": {
+                "Yesterday": "I helped Lucas with some of his pull request comments and a certificate error and then I tested dynamic help for RWRPFM",
+                "Today": "I will look over the remaining help-related items and then grab something off the backlog",
+                "Impediments": "None",
+                "GoBacks": "None"
+            },
             "2021.4.26": {
                 "Yesterday": "I tested dynamic help for AAI and BOL and ADCP-II and I found an issue with that so I moved it back to Active",
-                "Today": "",
+                "Today": "I'm going to review active pull requests and then grab something else from the backlog",
                 "Impediments": "None",
                 "GoBacks": "None"
             },

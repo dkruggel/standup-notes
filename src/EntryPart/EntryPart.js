@@ -15,6 +15,7 @@ export default class EntryPart extends React.Component {
             variant='outlined'
             multiline
             rowsMax={20}
+            fullWidth
           />
         </CardContent>
       </Card>
