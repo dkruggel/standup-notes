@@ -1,129 +1,435 @@
-{"entries":
-    [
-        {"2021.4": {
-            "2021.4.27": {
-                "Yesterday": "I helped Lucas with some of his pull request comments and a certificate error and then I tested dynamic help for RWRPFM",
-                "Today": "I will look over the remaining help-related items and then grab something off the backlog",
-                "Impediments": "None",
-                "GoBacks": "None"
+{
+    "entries": [
+        {
+            "2021.7": {
+                "2021.7.9": {
+                    "Yesterday": "I spent the day working the IFF rewrite, creating the models and viewmodels and starting to build out the UI",
+                    "Today": "I will continue with that today",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.7.8": {
+                    "Yesterday": "After the meeting I reviewed a pull request and helped Lucas with the PR he's working and then I got started on the IFF rewrite",
+                    "Today": "I will continue with that today",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.7.7": {
+                    "Yesterday": "I talked to Colin Fuegner about the 6.0.3 smart weapons issues he found in FRE testing and we came to the conclusion that the PR I was working is mostly operating as intended and he found some other issues while testing that were similar and so he wrote up several PRs that are more detailed and specific. I also had sent an email to Tapestry IT about my TFS connection issues and I hadn't heard anything by lunch so I emailed Scott to let him know. I got that figured out at the end of the day and then I completed my pull request for COMM help. This morning I reviewed Laterza's pull request for snappable points",
+                    "Today": "I'm going to tie up the loose ends for the smart weapons PR and then see what comes out of the planning meeting",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.7.6": {
+                    "Yesterday": "I continued digging through the smart weapons PR and I think I've got it narrowed down to an unloading issue",
+                    "Today": "I'm going to go down that path today to see if that's where the values are flipping to be incorrect",
+                    "Impediments": "I can't get into TFS this morning, but I have an email out to Tapestry IT about it",
+                    "GoBacks": "None"
+                },
+                "2021.7.2": {
+                    "Yesterday": "I got my SVN password sorted out with Chuck Fiske and then I reviewed the ICDs for smart weapons to make sure the correct values are being passed to the DTD and then I continued tracking down where the value change is occurring to cause unavailable entries to receive the unloadable text. This morning I reviewed a couple of pull requests",
+                    "Today": "I will continue to dig through smart weapons so I can write an analysis for this PR",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.7.1": {
+                    "Yesterday": "I continued analyzing a 6.0.3 smart weapons PR and talked with Colin Fuegner about it a little bit because he's running that test for the FRE right now and we came to the conclusion that there may be a missing disclaimer and I also need to verify some of the return values against the ICD, but my password for SVN isn't working so I contacted Chuck Fiske to get that taken care of and now I'm having issues getting to the message courier which I've never used before",
+                    "Today": "I will continue to analyze that smart weapons PR today once I can get access to the ICDs to review them",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                }
             },
-            "2021.4.26": {
-                "Yesterday": "I tested dynamic help for AAI and BOL and ADCP-II and I found an issue with that so I moved it back to Active",
-                "Today": "I'm going to review active pull requests and then grab something else from the backlog",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.23": {
-                "Yesterday": "I fought nuget packages not updating most of the morning and chatted with Collin about it and that finally started working so I finished up dynamic help for SIT Defaults and that'll need 2 reviewers. I also have a pull request for RefLines which requires a technical lead to review it and then I can complete that",
-                "Today": "I'll look through the active pull requests and ready to test user stories to help clean that up",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.22": {
-                "Yesterday": "After the meeting I fixed a couple of issues Laterza found with RefLines help and then I started the SIT Defaults help I had as active previously",
-                "Today": "I'll finish that up as long as the nuget packages cooperate and then I'll look at what helps need what",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.21": {
-                "Yesterday": "I completed my Data Frames and Data Frames DTM-II pull requests and tested Weapons.Routes dynamic help and EPAWSS Training dynamic help. I also fixed a couple of issues Laterza found with RefLines help",
-                "Today": "I will continue grabbing user stories to test and I'll finish the last bits of Ref Lines that need fixed that Mike pointed out to me yesterday afternoon",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.20": {
-                "Yesterday": "I reviewed some pull requests and helped Lucas with resolving some of his pull request comments and moved Data Frames to ready to test and started testing help for MWOD manager",
-                "Today": "I'll continue testing and reviewing pull requests",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.19": {
-                "Yesterday": "On Friday I completed the switch to OkCancelHelpButtonForm for the modify form in Data Frames DTM-II to finish out the pull request comments on that. I also completed resolving the comments for my Ref Lines dynamic help pull request and then I reviewed some pull requests",
-                "Today": "I need to get the build machine to build Ref Lines and then I will continue reviewing pull requests and then I'll help test some of the dynamic help stories",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.16": {
-                "Yesterday": "After the meetings I worked on my pull request comments and resolved most of the Data Frames DTM-II comments from Skylar",
-                "Today": "I'll finish that up and then start resolving my pull request comments for Ref Lines and then I'll start reviewing pull requests and helping Josh test",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.15": {
-                "Yesterday": "After the meeting I worked on my pull request comments and resolved all of the Data Frames comments so that needs a couple of reviewers",
-                "Today": "I'll work to resolve the comments on Ref Lines dynamic help",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.14": {
-                "Yesterday": "After the meeting I got my VM to settle down and I was able to work on pull request comments for the help components I had worked and then I ducked out to get my first does of the COVID vaccine and then went back to working on that",
-                "Today": "We have the meetings and during any downtime I'll just continue working my pull requests to resolve those comments",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.13": {
-                "Yesterday": "I spent the entire day trying to get my VMs to operate correctly. They keep maxing out on CPU and Disk I/O and Skylar and Joey tried helping me a bit with that. The last resort was to start with a fresh VM and so I started pulling that off the network in the afternoon and that finished last night so this morning I set that VM up and tested it",
-                "Today": "We have the meetings and I have to pop out in the early afternoon to get my COVID vaccine and then I'll be back on",
-                "Impediments": "VM",
-                "GoBacks": "None"
-            },
-            "2021.4.12": {
-                "Yesterday": "I spent the day reinstalling core components on my dev VM and setting up my contractor laptop",
-                "Today": "I will continue fixing the comments on my dynamic help pull requests",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.9": {
-                "Yesterday": "I drove to Illinois and got my contractor laptop upgraded",
-                "Today": "After I finish setting up the laptop environment and get my VM back up and running, I'll start resolving the comments on my pull requests",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.8": {
-                "Yesterday": "While waiting for SFR docs I started looking at pull requests and reviewing comments on my pull requests to prepare for resolving them after my laptop upgrades",
-                "Today": "I will work the SFR updates that I get assigned",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.7": {
-                "Yesterday": "I worked on SIT Defaults help for a bit and then was told to await SFR docs to update",
-                "Today": "I will work the SFR updates that I get assigned",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.6": {
-                "Yesterday": "I spent the morning re-copying my VM to my contractor laptop because it would not open Visual Studio. Then I kicked off my pull requests and made sure the builds completed and then I finished up Ref Lines help and kicked off the pull request for that.",
-                "Today": "I'm starting work on SIT Defaults dynamic help",
-                "Impediments": "I still cannot access Mattermost or any network drives on nos",
-                "GoBacks": "None"
-            },
-            "2021.4.5": {
-                "Yesterday": "I spent the day tracking down whether my account had been activated and walking through some setup items with Lucas",
-                "Today": "This morning I was finally able to get into TFS so I will be kicking off pull requests from my completed dynamic help components and working on getting access to network folders and Mattermost",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.2": {
-                "Yesterday": "I worked on getting connected to BEN and it turned out I needed my Windows account to be activated so I got that ball rolling and that should be active by this afternoon and then I will be able to access everything on the network",
-                "Today": "I will keep checking on that and until then I'll be making sure my VM came over to my contractor laptop and is working",
-                "Impediments": "None",
-                "GoBacks": "None"
-            },
-            "2021.4.1": {
-                "Yesterday": "I worked on Ref Lines dynamic help and solved my installer issue and then was able to complete the testing of that",
-                "Today": "I'll try to get connected to BEN and get all set up and then finish my Ref Lines help testing",
-                "Impediments": "None",
-                "GoBacks": "None"
+            "2021.6": {
+                "2021.6.30": {
+                    "Yesterday": "I analyzed a 6.0.3 smart weapons PR and I'm digging through loadable and reportable trying to track down the issue and I helped Lucas a little bit with his 6.0.3 VM",
+                    "Today": "I will continue to analyze that smart weapons PR today",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.29": {
+                    "Yesterday": "I analyzed a 6.0.3 threats PR and marked it CND and then I grabbed a 6.0.3 smart weapons PR and started analyzing that and this morning I saw that my last IRST pull request was approved by a second reviewer so I moved that user story to ready to test",
+                    "Today": "I will continue to analyze that PR today",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.28": {
+                    "Yesterday": "I worked on the IRST PR that deals with not allowing the user to click OK and save the IRST init file if there isn't an IRST Pod file selected. I wrote a couple of converters for the OK button being enabled and the background color of the required text boxes. I also noticed that I hadn't taken clearing the file path fields by the user into account with the last PR so I added two lines of code to address that and pushed up those changes and this morning I wrote the logic for selecting all of the text on focus and then grabbed a PR for 6.0.3 to anazlyze",
+                    "Today": "I'm going to analyze that PR",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.25": {
+                    "Yesterday": "I started working on an IRST PR dealing with file path validation and I kicked off a pull request for that and this morning I grabbed the third IRST PR that deals with verifying at least one IRST Pod file has been selected",
+                    "Today": "I'm going to continue work on that",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.24": {
+                    "Yesterday": "After the planning meeting I started working on an IRST PR where there was no status in the DTD load dialog for DTM and this morning I kicked off a pull request for that",
+                    "Today": "I'm going to work an IRST PR dealing with file path validation",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.23": {
+                    "Yesterday": "I finished reviewing the SFR updates for JHMCS and I reviewed the Ref Lines test update and left a couple of comments in there and then I reviewed the pre-flight messages SFR updates and this morning I saw that my pull request for the COMM updates got a second reviewer, so I moved that to ready to test",
+                    "Today": "I'm waiting for Cory to get back to me about a conversation we had yesterday afternoon about updating ICDs and I'll see what comes out of the planning meeting",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.22": {
+                    "Yesterday": "I started working on reviewing the SFR updates for JHMCS and I also made some fixes to the COMM help updates I made according to Laterza's comments and then pushed up those changes and that'll need one more reviewer when someone has an opportunity and this morning I reviewed the Ref Lines test update and left a comment in there",
+                    "Today": "Today I'll finish up reviewing the JHMCS SFR updates and then grab something else off the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.21": {
+                    "Yesterday": "I worked on the help updates to COMM, creating new screenshots to replace all of the applicable existing screenshots, updating wording on all of the auxillary pages to include STF and SATURN and then created the STF and SATURN pages and then I finished that this morning and kicked off a pull request for that",
+                    "Today": "Today I'll grab something off the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.17": {
+                    "Yesterday": "I approved some pull requests in the morning and then after the meeting I worked on the help updates to COMM which is just getting more and more involved the more I get into it. I also had a call with UnKyle to help him out a little with his secure token and VirtualBox issues",
+                    "Today": "Today I'll continue working the COMM help",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.16": {
+                    "Yesterday": "After standup I got on a call with 1/2 and we discussed the changes necessary to CRT and SIT to fix the loading issue against the ICDs. I took the SIT changes and was able to implement those fixes yesterday and the pull requests have been reviewed and they've been tested and we're just waiting to hear whether to include them in the release. I also reviewed a couple of pull requests",
+                    "Today": "Today I'll monitor the situation on those pull requests, review some of the pull requests that are outstanding and then get back to the COMM help update for SATURN",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.15": {
+                    "Yesterday": "I updated the help documentation for SIT Defaults by adding a couple of screenshots and updating some of the html to make section links on the page work properly and then I went through my branches per Cory's email and deleted a couple that were unnecessary. There are a few more that I don't have the permission to delete and I talked to Cory about it and sent him an email with the branches I could not delete. I then started on the help updates for SATURN in COMM",
+                    "Today": "Today I'll continue to work on those",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.14": {
+                    "Yesterday": "I got assigned SIT test updates and worked on those test updates and submitted a pull request for that and then started getting screen shots for help updates to CRT and SIT in preperation for those user stories and this morning I approved Joey's CRT test update pull request",
+                    "Today": "I'll continue to prep the help updates to SIT Defaults and then grab something off the backlog if those user stories aren't ready yet",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.11": {
+                    "Yesterday": "I implemented the fix for the EPAWSS Training PR I was working and kicked off the pull request for that. I also completed the pull request for the other EPAWSS PR I worked because that passed testing. Then I helped Lucas with his EX List Points PR and I verified CND on a Wind Table PR",
+                    "Today": "I'm looking for something to work on",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.10": {
+                    "Yesterday": "After the meeting I grabbed an EPAWSS CMD PR that I had analyzed dealing with tab issues in a datagrid and I kicked off a pull request for that this morning and I reviewed a couple of Laterza's pull requests yesterday afternoon",
+                    "Today": "I'm going to start the other EPAWSS PR I had analyzed previously that was for EPAWSS Training",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.9": {
+                    "Yesterday": "I wrote up the analysis of an EPAWSS Training PR and then helped Lucas a bit with his Ref Lines PR. I also sent an email to Bill about what to work on next and spoke to Cory about that towards the end of the day",
+                    "Today": "I'll hopefully get something assigned during the planning meeting",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.8": {
+                    "Yesterday": "I analyzed an EPAWSS CMD PR dealing with a tabbing issue and wrote up the analysis for that and then started analyzing an EPAWSS Training PR that dealt with highlighting of text when entering a text box",
+                    "Today": "I should be able to write up the analysis for that this morning and then I'll grab something off the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.7": {
+                    "Yesterday": "I continued looking at a Saudi PR that dealt with opening routes in sequence points and that seems to be a larger issue dealing with the FPM utilities not being in routes so I wrote the analysis and marked it analyzed. I also approved a few pull requests",
+                    "Today": "I'll grab an item off the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.4": {
+                    "Yesterday": "I worked on a Saudi PR dealing with preferences not importing and exporting correctly when nested and marked that as analyzed and then I looked at another Saudi PR that dealt with opening routes in sequence points and that seems to be a larger issue dealing with the FPM utilities not being in routes and this morning I approved a pull request for Joey",
+                    "Today": "I'll write up the analysis for that PR and then grab another one",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.3": {
+                    "Yesterday": "I completed several of my pull requests that had passed testing and I kicked off a couple of pull requests for Lucas because of his VPN issues and then completed those when they got reviewed and then I worked on a Saudi PR dealing with preferences not importing and exporting correctly when nested. I also tested the IRST DTMII user story and moved that to resolved",
+                    "Today": "I'll continue analyzing the Saudi PR I have and then grab another one",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.6.2": {
+                    "Yesterday": "I finished up the IRST updates to SIT Defaults and created pull requests for both SIT Defaults and CRT",
+                    "Today": "I'm going to jump back into a Saudi preferences PR I was working before I moved over to working IRST updates and I'm going to complete the IRST pull requests",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                }
             }
-        }},
-        {"2021.3": {
-
-        }},
-        {"2021.2": {
-            
-        }},
-        {"2021.1": {
-            
-        }}
+        },
+        {
+            "2021.5": {
+                "2021.5.28": {
+                    "Yesterday": "I finished up the IRST CRT additions and then sent an email to Jenn because she left a comment to contact her about the ICDs for CRT and SIT. The ICDs were good so I started on SIT and that's just about wrapped up from yesterday and I spent a little time helping out Lucas with his EPAWSS PR. This morning I reviewed 1/2's pull request for IRST DTMII loading and I moved my Saudi IFF PR to ready to test",
+                    "Today": "I'm going to finish up the IRST update for SIT and create the pull requests for both CRT and SIT. I'll be off on Tuesday",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.27": {
+                    "Yesterday": "After the meeting I started working the IRST update for CRT and got all of the xmls updated and made some code changes to handle the 9.2 suite. Everything was working nicely except the DTMII binary so I'm looking into that this morning. I also moved a Ref Lines user story to ready to test since it got a second reviewer this morning",
+                    "Today": "I'm going to finish that up and move on to the IRST update for SIT Defaults",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.26": {
+                    "Yesterday": "I finished the desgin doc changes for SIT Defaults and I just need to commit that, but I'm waiting to make sure there are no comments on my SFR updates. I'll probably give that until tomorrow afternoon and then go ahead and commit that. I also went ahead and implemented the fix for the 6.1 weapons PR that I received an answer on from Fraley yesterday. That pull request will need another reviewer, I believe and also it will require a test change and I made a comment about that in the PR so I don't know if there needs to be a new PR written up for the test change or if I should go ahead and fix that now. I also started working a Saudi PR dealing with preferences import/export and I have that one narrowed down and just need to implement the fix for it",
+                    "Today": "I'm going to implement that fix after the meeting and then move on to whatever the planning results in",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.25": {
+                    "Yesterday": "I implemented a fix for Saudi PR dealing with copy/paste issues in the code 1 field of IFF and then I committed a change to USAF HUD Programming and put that back to ready to test. I also sent a couple of check up emails regarding PRs that are impeded and then Cory told me that the ICDs for CRT and SIT Defaults were updated for 9.2 and he asked me to work the SFR and design docs for those so I looked over the CRT ones and compared them to the ICD and then got started on the SIT Defaults SFR changes and then I finished those up this morning and put the review note in there. Also, Jeff Fraley replied to my email that he would get back with me later this morning on my question for a 6.1 weapons PR that has been impeded",
+                    "Today": "I'm going to work the design doc changes for SIT Defaults and then grab another Saudi PR",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.24": {
+                    "Yesterday": "I spent the morning helping Lucas out with his EPAWSS PR and then I attacked a few Saudi PRs that all ended up being CND except for a SIT Defaults one that Joey was able to confirm and after reading the detection path I realized I had chosen the wrong aircraft and then I was able to duplicate it",
+                    "Today": "I'm going to work an IFF Saudi PR and the SIT Defaults PR and I'm going to send email updates to check on the two PRs of mine that are currently impeded",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.21": {
+                    "Yesterday": "After I got my UPC updated on the Saudi VM, I looked at the Saudi Ref Lines PR that I had grabbed and that turned out to be CND so I marked that as such and then I reviewed the SATURN STF pull request and left a comment in there and then I helped Lucas with binary comparison to assist in analyzing the PR he's working on",
+                    "Today": "I'm going to grab another Saudi PR if we have any added to the sprint",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.20": {
+                    "Yesterday": "After backlog grooming I helped Lucas work on getting his Saudi VM set up while my download continued. Since it was obvious that it wouldn't complete yesterday, I confirmed with Cory that I could work a 6.1 PR that was authorized this week to keep me busy so I worked a Ref Lines PR and implemented that fix and then created a pull request for it so that'll need some reviewers. This morning I set up my Saudi VM and updated my UPC so I could start the Saudi PR I grabbed the other day",
+                    "Today": "I'll get that Saudi PR finished and grab another one",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.19": {
+                    "Yesterday": "I was working on getting my Saudi VM in a working state and grabbed a Ref Lines PR for Saudi that deals with selecting lines by choosing slots in the properties dialog. All day yesterday and so far this morning I have had issues with my GlobalProtect staying connected for more than 30 minutes at a time",
+                    "Today": "If I can get the UPC to install and all of the artifacts to download, I'll start looking into that PR",
+                    "Impediments": "None, other than my internet connection",
+                    "GoBacks": "None"
+                },
+                "2021.5.18": {
+                    "Yesterday": "I spent the day analyzing a Ref Lines PR dealing with segment widths in graphical when more than one slot is connected. I found where the issue was and wrote the analysis up and marked it analyzed",
+                    "Today": "I will grab another PR to analyze until we have direction about the FMS products",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.17": {
+                    "Yesterday": "I finished analyzing the GARS reporting PR and marked it analyzed. Turns out it would fail when the planning component was set to None which doesn't display the extended properties and it would cause the reportable to fail out when creating the entries for the report. I also sent an email to Kris and Jenn about the HUD Programming changes I made. The result was that I should probably only change 9.1 and take suite 8 and 9 back to where they were as the proudct is in the field already. I am awaiting a confirmation from Jenn before committing my changes. I was also downloading the Saudi VM all day",
+                    "Today": "I will grab another PR to analyze until we have direction about the FMS products",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.14": {
+                    "Yesterday": "I spent the day analyzing the GARS reporting PR. The issue stems from a lack of all of the columns being displayed when creating a GARS plan so I need to track down what is causing that issue in order to give my analysis because those columns showed up out of nowhere when I created a second GARS plan and now I can't get them to go away to test how they were left out to begin with",
+                    "Today": "I'm going to keep analyzing the GARS reporting PR and I'm downloading the Saudi VM that Cory linked us to even though there is a note in there to maybe use a different one with an updated instance of Visual Studio. Cory was having Ben Royer look into where the correct one was, but I figured I would at least get something downloading in the meantime",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.13": {
+                    "Yesterday": "After the meeting I finished reviewing and writing my analysis of the Ref Lines PR and then I created the pull request for the HUD Programming PR that was a loading issue that I had committed a fix for previously and that just needs one more reviewer and then I reviewed Joey's Ref Lines ER pull request",
+                    "Today": "I'm going to start analyzing the GARS reporting PR",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.12": {
+                    "Yesterday": "I continued analyzing a PR for Ref Lines where rectangles aren't snapping correctly when drawn in graphical and helped Lucas with a smart weapons PR he's working. I'm also still waiting for a reply from Cory, Kris, or Jeff Fraley concerning a weapons PR. This morning I started reviewing Kyle's IRST pull request",
+                    "Today": "I will finish reviewing the Ref Lines PR analysis which is almost finished",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.11": {
+                    "Yesterday": "I looked into the PR dealing with map set icons not appearing in 6.1 and marked that as resolved because it was fixed during Skylar's dynamic help update for DTMII maps and then I started analyzing a PR for Ref Lines where rectangles aren't snapping correctly when drawn in graphical",
+                    "Today": "I'm going to continue my analysis",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.10": {
+                    "Yesterday": "I spent the morning fighting my local internet connection and helping Lucas with his first binary comparison PR and I sent the follow-up email to Cory regarding the weapons PR I'm working. My internet came back to life around 10:45 so I was able to look at 1/2's Mattermost messages and went to work on the IRST CRT SFR updates using his SFR email as a guide and then I worked the design doc updates for IRST CRT and committed that to SVN. This morning I resolved 1/2's comments on my SFR document and sent an email to Catalfano and Kris regarding which SSSs to trace to for the CRT entries",
+                    "Today": "Today I'm going to look at the backlog for something to work until I receive answers on either the weapons PR or the CRT SFR questions I have out currently",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.7": {
+                    "Yesterday": "I sent an email to Kris about the weapons PR I'm working and pinged her in Mattermost to make her aware of said email. This morning I received a reply from Cory and I'm following up with more information for him and he added Fraley to the email string. I then started looking at the requirements update for IRST CRT. I looked into the RAM table to find the SSSs related to this and found nothing helpful so I reached out to Skylar who was unable to help and then to Cory for guidance on which SSSs to use to make the udpates to the SFR. I talked to Cory this morning and he explained to me that CRT is now called display programming so now I feel a little less dumb and I'll find the corresponding SSSs in the RAM table to make my SFR updates. I took some time and confirmed CND on the Ref Lines axis orientation PR and saw it was already fixed under a bug by 1/2 back in December",
+                    "Today": "I am going to finish the IRST SFR updates and design updates",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.6": {
+                    "Yesterday": "After backlog grooming I wrote up my analysis of the 9.1RR PR for HUD Programming and then I started working the 6.1 PR dealing with weapons default quantities for the MK-82 store. Looking into it I was unsure if I was understanding the issue correctly so I talked to 1/2 about it this morning and we came to the conclusion that a previous bug fix by Lucas may have needed to be a test update instead and potentially caused this difference between 6.0.3 and 6.1. I believe my next step should be to send Kris an email asking her if that should have been a test update and if I should revert that change to match the RAM table and the other products",
+                    "Today": "While I'm waiting for that response, I'm going to start the IRST CRT requirements and design updates",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.5": {
+                    "Yesterday": "I finished the EX PR dealing with HUD Programming and I just needed the overnight build to make sure it worked which I was able to confirm this morning so I moved that to ready to test and then I finished the 9.1RR version of the PR and moved that to ready to test. Also, I saw that VirtualBox had a new update that came out last week and after I updated to that, my VM is running perfectly with no more lag or freezing so that's awesome",
+                    "Today": "I'll find something ready to test that I didn't do and doesn't require lab access since Josh is out and then see what happens in the meeting",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.4": {
+                    "Yesterday": "I worked on the EX PR dealing with HUD Programming selections not being represented correctly in the jet. I just need to test the fix and compare the binary for verification and that'll be finished",
+                    "Today": "Then I can move on to the 9.1RR PR dealing with a similar issue",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.5.3": {
+                    "Yesterday": "I started working the EX PR dealing with HUD Programming defaults not matching the ICD and Mike noticed the EX ICDs aren't in SVN where we would expect them so we'll need to know where those are",
+                    "Today": "Today I should be able to finish up the EX PR for this and then I can start looking into the 9.1RR PR that is just like it",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                }
+            }
+        },
+        {
+            "2021.4": {
+                "2021.4.30": {
+                    "Yesterday": "I finished testing ADCP-II help and marked that as resolved and I started setting up my 6.0 VM and cloned it to make a 6.0.3 VM and an EX VM",
+                    "Today": "I'm going to grab an EX PR after I finish setting my EX VM",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.29": {
+                    "Yesterday": "After the meeting I completed my pull request for SIT Defaults and reviewed a pull request for Charts Core dynamic help and then I tested help for DVRS and I sent an email to Chuck Fiske to request SVN access which I was able to finish setting up this morning",
+                    "Today": "I'll make sure the help items are tidied up and then I'll need some direction on which particular user story to move to next",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.28": {
+                    "Yesterday": "I reviewed a few pull requests and tested help for GPSASSV and then helped Lucas try to track down an installation issue with COMM not showing up in JMPS after installation",
+                    "Today": "After the meeting, I'll grab a help to test if I don't get assigned something",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.27": {
+                    "Yesterday": "I helped Lucas with some of his pull request comments and a certificate error and then I tested dynamic help for RWRPFM and then reviewed Skylar's pull request for CC.DataSet",
+                    "Today": "I will look over the remaining help-related items and then grab something off the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.26": {
+                    "Yesterday": "I tested dynamic help for AAI and BOL and ADCP-II and I found an issue with that so I moved it back to Active",
+                    "Today": "I'm going to review active pull requests and then grab something else from the backlog",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.23": {
+                    "Yesterday": "I fought nuget packages not updating most of the morning and chatted with Collin about it and that finally started working so I finished up dynamic help for SIT Defaults and that'll need 2 reviewers. I also have a pull request for RefLines which requires a technical lead to review it and then I can complete that",
+                    "Today": "I'll look through the active pull requests and ready to test user stories to help clean that up",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.22": {
+                    "Yesterday": "After the meeting I fixed a couple of issues Laterza found with RefLines help and then I started the SIT Defaults help I had as active previously",
+                    "Today": "I'll finish that up as long as the nuget packages cooperate and then I'll look at what helps need what",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.21": {
+                    "Yesterday": "I completed my Data Frames and Data Frames DTM-II pull requests and tested Weapons.Routes dynamic help and EPAWSS Training dynamic help. I also fixed a couple of issues Laterza found with RefLines help",
+                    "Today": "I will continue grabbing user stories to test and I'll finish the last bits of Ref Lines that need fixed that Mike pointed out to me yesterday afternoon",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.20": {
+                    "Yesterday": "I reviewed some pull requests and helped Lucas with resolving some of his pull request comments and moved Data Frames to ready to test and started testing help for MWOD manager",
+                    "Today": "I'll continue testing and reviewing pull requests",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.19": {
+                    "Yesterday": "On Friday I completed the switch to OkCancelHelpButtonForm for the modify form in Data Frames DTM-II to finish out the pull request comments on that. I also completed resolving the comments for my Ref Lines dynamic help pull request and then I reviewed some pull requests",
+                    "Today": "I need to get the build machine to build Ref Lines and then I will continue reviewing pull requests and then I'll help test some of the dynamic help stories",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.16": {
+                    "Yesterday": "After the meetings I worked on my pull request comments and resolved most of the Data Frames DTM-II comments from Skylar",
+                    "Today": "I'll finish that up and then start resolving my pull request comments for Ref Lines and then I'll start reviewing pull requests and helping Josh test",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.15": {
+                    "Yesterday": "After the meeting I worked on my pull request comments and resolved all of the Data Frames comments so that needs a couple of reviewers",
+                    "Today": "I'll work to resolve the comments on Ref Lines dynamic help",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.14": {
+                    "Yesterday": "After the meeting I got my VM to settle down and I was able to work on pull request comments for the help components I had worked and then I ducked out to get my first does of the COVID vaccine and then went back to working on that",
+                    "Today": "We have the meetings and during any downtime I'll just continue working my pull requests to resolve those comments",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.13": {
+                    "Yesterday": "I spent the entire day trying to get my VMs to operate correctly. They keep maxing out on CPU and Disk I/O and Skylar and Joey tried helping me a bit with that. The last resort was to start with a fresh VM and so I started pulling that off the network in the afternoon and that finished last night so this morning I set that VM up and tested it",
+                    "Today": "We have the meetings and I have to pop out in the early afternoon to get my COVID vaccine and then I'll be back on",
+                    "Impediments": "VM",
+                    "GoBacks": "None"
+                },
+                "2021.4.12": {
+                    "Yesterday": "I spent the day reinstalling core components on my dev VM and setting up my contractor laptop",
+                    "Today": "I will continue fixing the comments on my dynamic help pull requests",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.9": {
+                    "Yesterday": "I drove to Illinois and got my contractor laptop upgraded",
+                    "Today": "After I finish setting up the laptop environment and get my VM back up and running, I'll start resolving the comments on my pull requests",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.8": {
+                    "Yesterday": "While waiting for SFR docs I started looking at pull requests and reviewing comments on my pull requests to prepare for resolving them after my laptop upgrades",
+                    "Today": "I will work the SFR updates that I get assigned",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.7": {
+                    "Yesterday": "I worked on SIT Defaults help for a bit and then was told to await SFR docs to update",
+                    "Today": "I will work the SFR updates that I get assigned",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.6": {
+                    "Yesterday": "I spent the morning re-copying my VM to my contractor laptop because it would not open Visual Studio. Then I kicked off my pull requests and made sure the builds completed and then I finished up Ref Lines help and kicked off the pull request for that.",
+                    "Today": "I'm starting work on SIT Defaults dynamic help",
+                    "Impediments": "I still cannot access Mattermost or any network drives on nos",
+                    "GoBacks": "None"
+                },
+                "2021.4.5": {
+                    "Yesterday": "I spent the day tracking down whether my account had been activated and walking through some setup items with Lucas",
+                    "Today": "This morning I was finally able to get into TFS so I will be kicking off pull requests from my completed dynamic help components and working on getting access to network folders and Mattermost",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.2": {
+                    "Yesterday": "I worked on getting connected to BEN and it turned out I needed my Windows account to be activated so I got that ball rolling and that should be active by this afternoon and then I will be able to access everything on the network",
+                    "Today": "I will keep checking on that and until then I'll be making sure my VM came over to my contractor laptop and is working",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                },
+                "2021.4.1": {
+                    "Yesterday": "I worked on Ref Lines dynamic help and solved my installer issue and then was able to complete the testing of that",
+                    "Today": "I'll try to get connected to BEN and get all set up and then finish my Ref Lines help testing",
+                    "Impediments": "None",
+                    "GoBacks": "None"
+                }
+            }
+        },
+        {
+            "2021.3": {}
+        },
+        {
+            "2021.2": {}
+        },
+        {
+            "2021.1": {}
+        }
     ]
 }

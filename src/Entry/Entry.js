@@ -15,32 +15,46 @@ export default class Entry extends React.Component {
       impediments: '',
       goBacks: '',
     };
+    this.saveEntry = this.saveEntry.bind(this);
+  }
+
+  componentDidMount() {
+    const date = new Date();
+    const monthFilter = date.getFullYear() + '.' + (date.getMonth() + 1);
+    const dayFilter = monthFilter + '.' + date.getDate();
+    const entriesList = entries.entries.filter(x => x[monthFilter])[0];
+    const today = entriesList[monthFilter][dayFilter];
+
+    this.setState({
+      date: dayFilter,
+      yesterday: today.Yesterday,
+      today: today.Today,
+      impediments: today.Impediments,
+      goBacks: today.GoBacks,
+    });
+  }
+
+  saveEntry() {
+    const date = new Date();
+    const monthFilter = date.getFullYear() + '.' + (date.getMonth() + 1);
+    const dayFilter = monthFilter + '.' + date.getDate();
+    const entriesList = entries.entries.filter((x) => x[monthFilter])[0];
+    const today = entriesList[monthFilter][dayFilter];
+
+    today.Yesterday = this.state.yesterday;
+    today.Today = this.state.today;
+    today.Impediments = this.state.impediments;
+    today.GoBacks = this.state.goBacks;
+
+    
   }
 
   render() {
     const date = new Date();
     const monthFilter = date.getFullYear() + '.' + (date.getMonth() + 1);
     const dayFilter = monthFilter + '.' + date.getDate();
-    const entriesList = entries.entries[0];
+    const entriesList = entries.entries.filter((x) => x[monthFilter])[0];
     const today = entriesList[monthFilter][dayFilter];
-
-    const saveEntry = () => {
-      const date = new Date();
-      const dateString =
-        date.getFullYear() + '.' + (date.getMonth() + 1) + '.' + date.getDate();
-      const yesterday = '';
-      const today = '';
-      const impediments = '';
-      const goBacks = '';
-
-      this.setState({
-        date: dateString,
-        yesterday: yesterday,
-        today: today,
-        impediments: impediments,
-        goBacks: goBacks,
-      });
-    };
 
     return (
       <>
@@ -50,7 +64,7 @@ export default class Entry extends React.Component {
           <EntryPart label={'Impediments'} data={today.Impediments} />
           <EntryPart label={'Go Backs'} data={today.GoBacks} />
           <div>
-            <Fab color='secondary' aria-label='save' onClick={saveEntry()}>
+            <Fab color='secondary' aria-label='save' onClick={this.saveEntry}>
               <SaveAlt />
             </Fab>
           </div>
